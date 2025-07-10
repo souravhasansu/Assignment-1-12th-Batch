@@ -1,0 +1,65 @@
+.name{
+    font-size: 20px;
+    color: #4E47FF;
+    font-weight: 900;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.signup{
+
+     
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content{
+    align-items: flex-end;
+}
+
+nav{
+
+       display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 100px;
+    padding: 30px 10px;
+}
+
+h1{
+    align-items: center;
+    font-size: 56px;
+    padding: 20px 300px;
+    max-width: none;
+    color: #252432;
+    
+}
+
+.learn {
+align-items: center;
+background: #4E47FF;
+color: white;
+position:relative;
+z-index: 2;
+
+
+}
+button{
+
+background: #4E47FF;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 7px;}
+
+    .banner{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 10px;
+        padding: 20px;
+
+    }
+    header{
+        background-image: url('/images/Hero-bg.png');
+        background-repeat: no-repeat;
+    }
