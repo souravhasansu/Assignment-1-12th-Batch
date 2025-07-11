@@ -1,3 +1,47 @@
+.container {
+            background-color: #f3f3fd; /* The light purple background from the image */
+            padding: 40px 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Optional: subtle shadow for depth */
+            margin: 70px;
+        }
+
+        h2 {
+            color: #4a4a4a; /* Darker grey for the heading */
+            font-size: 32px;
+            margin-bottom: 40px;
+            font-weight: 600; /* Semi-bold for the heading */
+        }
+
+        .stats-grid {
+            display: flex;
+            justify-content: space-around;
+            gap: 30px; /* Space between the stat columns */
+            flex-wrap: wrap; /* Allow wrapping on smaller screens */
+        }
+
+        .stat-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .stat-number {
+            color: #5b46e3; /* The prominent blue-purple color for the numbers */
+            font-size: 56px; /* Large size for the numbers */
+            font-weight: 700; /* Bold numbers */
+            line-height: 1.1; /* Adjust line height to keep numbers closer to text */
+        }
+
+        .stat-description {
+            color: #7b7b7b; /* Medium grey for the descriptions */
+            font-size: 18px;
+            margin-top: 5px;
+            font-weight: 400; /* Regular weight for description */
+        }
+
+
 .name{
     font-size: 20px;
     color: #4E47FF;
@@ -14,7 +58,11 @@
     justify-content: space-between;
 }
 .content{
-    align-items: flex-end;
+     align-items: center;
+    font-size: 26px;
+    max-width: none;
+    color: #252432;
+    text-align: center;
 }
 
 nav{
@@ -26,14 +74,6 @@ nav{
     padding: 30px 10px;
 }
 
-h1{
-    align-items: center;
-    font-size: 56px;
-    padding: 20px 300px;
-    max-width: none;
-    color: #252432;
-    
-}
 
 .learn {
 align-items: center;
@@ -41,7 +81,6 @@ background: #4E47FF;
 color: white;
 position:relative;
 z-index: 2;
-b
 
 }
 button{
@@ -76,7 +115,7 @@ background: #4E47FF;
         margin: 50px;
     }
     img{
-        border-radius: 7ex;
+        border-radius: 30px;
     }
     .des{
 font-size: 18px;
