@@ -54,6 +54,11 @@
     color: #5b46e3;
 }
 
+
+
+
+
+
 .contact-container {
     display: flex;
     flex-wrap: wrap;
@@ -144,6 +149,17 @@
     background-color: #5a4bb3;
     transform: translateY(-2px);
 }
+
+
+
+
+
+
+
+
+
+
+
 
 .content-wrapper {
     width: 90%;
