@@ -418,11 +418,13 @@ button {
 
 
 
-
+.main-banner {
+    height: 100px;
+}
 
 header {
     background-image: url('/images/Hero-bg.png');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 
 .action {
