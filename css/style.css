@@ -1,5 +1,327 @@
+
+ .footer {
+            max-width: 800px;
+            padding: 20px;
+            box-sizing: border-box;
+            justify-content: center;
+            align-items: center;
+            margin: 40px;
+            display: grid;
+        }
+
+        .logo {
+            font-size: 80px;
+            font-weight: 700;
+            color: #5b46e3;
+            margin-bottom: 30px;
+            line-height: 1;
+            display: flex;
+        }
+
+        .description {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #666;
+            margin-bottom: 40px;
+            padding: 0 20px;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .nav-item {
+            text-decoration: none;
+            color: #666;
+            font-size: 18px;
+            font-weight: 400;
+            transition: color 0.3s ease;
+        }
+
+        .nav-item:hover {
+            color: #5b46e3;
+        }
+
+
+
+
+
+.contact-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* Center content horizontally */
+            align-items: center; /* Center content vertically */
+            gap: 50px; /* Space between the text and the form */
+            max-width: 1000px; /* Max width for the entire section */
+            padding: 20px;
+            box-sizing: border-box;
+            margin: 30px;
+            margin-left: 60px;
+        }
+
+        .contact-text {
+            text-align: left;
+            flex: 1;
+            min-width: 300px; /* Minimum width before wrapping */
+            max-width: 450px; /* Max width for the text section */
+        }
+
+        .contact-text h1 {
+            font-size: 60px; /* Large heading size */
+            font-weight: 700;
+            line-height: 1.1;
+            margin: 0;
+            color: #333;
+        }
+
+        .contact-form {
+            background-color: #f3f3fd; /* Form background color, same as body */
+            padding: 20px; /* Padding inside the form area, if needed for spacing */
+            border-radius: 10px; /* Rounded corners for the form area */
+            flex: 1;
+            min-width: 300px; /* Minimum width before wrapping */
+            max-width: 400px; /* Max width for the form section */
+            display: flex;
+            flex-direction: column;
+            gap: 20px; /* Space between form groups */
+        }
+
+        .form-group {
+            text-align: left;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #555; /* Label color */
+        }
+
+        .form-group input[type="email"],
+        .form-group input[type="text"],
+        .form-group textarea {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #e0e0e0; /* Light border for inputs */
+            border-radius: 8px;
+            font-size: 16px;
+            color: #333;
+            background-color: #ffffff; /* White background for input fields */
+            box-sizing: border-box; /* Include padding and border in the element's total width and height */
+            transition: border-color 0.3s ease;
+        }
+
+      
+       
+
+        .form-group textarea {
+            resize: vertical; /* Allow vertical resizing */
+            min-height: 100px; /* Minimum height for textarea */
+        }
+
+        .submit-button {
+            background-color: #6a5acd; /* Purple button color */
+            color: #ffffff;
+            padding: 15px 25px;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 10px rgba(106, 90, 205, 0.3);
+            width: 100%; /* Full width button */
+            box-sizing: border-box;
+        }
+
+        .submit-button:hover {
+            background-color: #5a4bb3; /* Darker purple on hover */
+            transform: translateY(-2px);
+        }
+
+
+
+.content-wrapper { 
+            width: 90%;
+            max-width: 900px;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+            background-color: #ffffff; 
+            border-radius: 15px; 
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); 
+            padding-left: 80px;
+        padding-right: 80px;
+        margin: 50px;
+        margin-left: 150px;
+        }
+
+        .subheading {
+            font-size: 36px; 
+            font-weight: 700; 
+            color: #333; 
+            margin-bottom: 15px;
+        }
+
+        .description-text { 
+            font-size: 19px; 
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .get-started-button {
+            background-color: #6a5acd; 
+            color: #ffffff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px; 
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 10px rgba(106, 90, 205, 0.3);
+            margin-bottom: 50px;
+        }
+
+        .get-started-button:hover {
+            background-color: #5a4bb3; 
+            transform: translateY(-2px);
+        }
+
+        .image-container {
+            width: 100%;
+            border-radius: 35px;
+            overflow: hidden;
+            padding: 15px; 
+            box-sizing: border-box;
+        }
+
+        .conference-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 10px; 
+        } 
+        
+
+
+
+
+.page-background { 
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3fd; 
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #333;
+        }
+
+
+
+
+        .review-section { 
+            width: 90%;
+            max-width: 1200px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 40px; 
+            margin-bottom: 40px;
+            color: #333; 
+            font-weight: 700; /* Bold heading */
+        }
+
+        .reviews-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px; /* Space between review cards */
+        }
+
+        .review-card {
+            background-color: #ffffff; 
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); /* Subtle shadow for depth */
+            width: 320px; 
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-sizing: border-box;
+            padding-left: 80px;
+        }
+
+        .stars {
+            color: #ffc107; /* Gold color for stars */
+            font-size: 20px; 
+            margin-bottom: 15px;
+            letter-spacing: 2px; 
+        }
+
+        .review-title {
+            font-size: 22px; 
+            font-weight: 600; 
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .review-text {
+            font-size: 16px; 
+            line-height: 1.6;
+            color: #555; 
+            margin-bottom: 20px;
+        }
+
+        .reviewer-info {
+            display: flex;
+            align-items: center;
+            margin-top: auto; 
+        }
+
+        .reviewer-image {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 15px;
+            border: 2px solid #eee; 
+        }
+
+        .reviewer-details {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .reviewer-name {
+            font-weight: 600;
+            color: #333;
+            font-size: 16px; 
+        }
+
+        .review-date {
+            font-size: 14px; 
+            color: #777;
+        }
+
+
+
+
+
+
+
+
+
+
 .container {
-            background-color: #f3f3fd; /* The light purple background from the image */
+            background-color: #bebee8; /* The light purple background from the image */
             padding: 40px 30px;
             border-radius: 15px;
             text-align: center;
